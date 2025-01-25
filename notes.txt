@@ -1,0 +1,66 @@
+Folder---> Root Directory.(HTML,CSS,JS)(index.html).
+
+We can create webpages using these tech. Collection of webpages=website.
+
+  pc(IP address)   ---->  ISP ---->  (24/7) Internet
+
+  HTML---> Hyper Text Markup Language.
+
+  <!--   -->  commenting
+
+  Hyper Text---> the text that takes you to another document.
+  Markup Language---> formatting or stucturing code using symbols or tags.
+
+  HTML is the foundation of webpage used to create and structure contents in webpage.
+
+  Boiler plate---> Basice structure of HTML.
+
+  html---->head, body
+
+  head---> metadata, links, styling
+  body----> visible contents
+
+  Meta Data--> the data about the website which might not be visible to the users.
+
+  <> </>---> no void tags (or elements)
+  <> ----> void elements
+
+
+File path
+___________________
+
+child---> /
+sibling---> ./
+parent---> ../
+
+
+Types of tags:
+___________________
+
+Heading Tags---> h1---h6.
+
+paragraph---> p   (used to seperate set of texts and make users convinient reading).
+
+Unordered List:
+---------------
+
+ul,li  ul--> list representation, li-->list elements representation.
+
+Ordered List:
+---------------
+
+ol,li  ol--> list representation, li-->list elements representation.
+
+
+Anchor tag
+___________________
+
+a--> used to add hyper links to a webpage
+
+<a href="https://www.google.com" target="_blank" draggable="false">Google</a>
+
+
+img
+___________________
+
+img--> src=link, alt=alternative name, width--> px value to represent it's width.
