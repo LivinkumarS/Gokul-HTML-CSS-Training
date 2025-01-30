@@ -64,3 +64,64 @@ img
 ___________________
 
 img--> src=link, alt=alternative name, width--> px value to represent it's width.
+
+
+Text Formatting(Typography) Tags
+__________________________________
+
+bold---> b (bolder the content)
+
+strong---> strong 
+
+italic---> i
+
+super script---> sup----> power, sub---> base
+
+underline---> ins
+
+delete---> del
+
+
+
+Break and hr:
+___________________
+
+br---> break the current line and create new line.
+hr---> horizontal line.
+
+
+Entities
+___________________
+
+used to represent symbols and char. in HTML.
+
+
+
+Tables
+___________________
+
+teble---> thead, tbody, tr---> table row, th--->table head element, td---> table data element.
+
+table attribute---> border.
+
+
+Forms and Inputs
+___________________
+
+form---> inputs.
+
+attributes of inputs---> placeholder, name, id, value, required.
+
+
+Types
+_____________
+
+1) text
+2) number
+3) email
+4) password
+5) submit
+6) radio
+7) checkbox
+8)reset 
+9) date.
