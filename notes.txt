@@ -191,3 +191,13 @@ color Properties:
 _________________________
 
 background-color: value;  value---> name, rgb(val1,val2,val3)[0-255], #000000(hex)
+
+color----> text color
+
+
+Text Properties:
+_____________________
+
+font-size---> it represents the size of the font.
+font-weight---> boldness
+font-family---> style of the text.
