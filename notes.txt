@@ -6,7 +6,7 @@ We can create webpages using these tech. Collection of webpages=website.
 
   HTML---> Hyper Text Markup Language.
 
-  <!--   -->  commenting
+  <!--   -->  commenting (ctrl+/)
 
   Hyper Text---> the text that takes you to another document.
   Markup Language---> formatting or stucturing code using symbols or tags.
@@ -125,3 +125,69 @@ _____________
 7) checkbox
 8)reset 
 9) date.
+
+
+CSS
+_____________
+
+Cascading Style Sheet---> used to style the HTML elements.
+
+Types Of methods to  insert CSS:
+__________________________________
+
+Internal.
+External.
+Inline.
+
+CSS Syntax
+_____________
+
+selector{
+  property1: value;
+  property2: value;
+}
+
+Types of Selectors(Basic Selectors)
+_________________________
+
+Tag name Selector---> using tag name directly as a selector.
+example:
+---------
+div{
+
+}
+
+Class name Selector---> using class name with "." at the begenning as a selector.
+
+a single tag can have multiple class names.
+a class name can be repeated for many tags.
+
+example:
+---------
+.container{
+
+}
+.red{
+
+}
+
+id name selector-----> using id name with "#" at begenning as a selector.
+
+a single tag can have ony one id name.
+an id name cannot be repeated
+
+example:
+---------
+#container{
+
+}
+
+tag name < class name < id name < Inline-styling
+
+CSS properties:
+___________________
+
+color Properties:
+_________________________
+
+background-color: value;  value---> name, rgb(val1,val2,val3)[0-255], #000000(hex)
