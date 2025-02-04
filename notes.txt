@@ -201,3 +201,38 @@ _____________________
 font-size---> it represents the size of the font.
 font-weight---> boldness
 font-family---> style of the text.
+
+
+
+Box Modelling
+___________________
+
+how elements are structured and spaced on webpage.
+here every element is considered as a box.
+
+1. content---> the actual stuff inside the box.
+2. padding---> space between the content and the border
+3. Border---> A surrounding line around the box.
+4. Margin---> space outside the border, that seperating it from other elements..
+
+1. width---->content's width
+2. height---->content's height
+
+
+box-sizing: content-box;---> box size= width+(padding*2)+(border*2)
+box-sizing: border-box;---> box size= width.
+
+
+
+
+Units in CSS.
+___________________
+
+px---> 0.26mm.
+cm---> 10mm.
+inch.
+
+Percentage:(%)
+_____________
+
+the % is relative to the parent element.
