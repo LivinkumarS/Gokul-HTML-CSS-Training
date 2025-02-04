@@ -235,4 +235,26 @@ inch.
 Percentage:(%)
 _____________
 
-the % is relative to the parent element.
+the % is relative to the parent element. padding, font-size, width, height, margin.
+
+Root em(rem)
+___________________
+
+relative to the root elements font-size.
+
+used to maintain same font-size throuout the document.
+
+em:
+_____
+
+relative font size to the parent.
+
+viewport width(vw)
+___________________
+
+relative to the width of the screen
+
+viewport width(vh)
+___________________
+
+relative to the height of the screen
