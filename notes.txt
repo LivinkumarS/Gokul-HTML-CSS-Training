@@ -269,3 +269,42 @@ __________________________________
 3)Direct Descenant Selector (or) Child Selector---> selector1>selector2{}
 4) chaining selector---> tagname.classname#idname
 5) Universal Selector---> "*"  selects all elements. 
+
+
+
+Positioning
+___________________
+
+used to control the placement of elements on a webpage.
+
+5 types:
+------------
+
+1)static
+2)relative
+3)absolute
+4)fixed
+5)sticky
+
+
+static
+---------
+Default Positioning. appears in normal workflow of the document.
+{
+  position: static;
+}
+
+Relative
+------------
+
+The element can be positioned relative to it's original position.
+
+it will not affect the workflow.
+
+properties to change position: top, bottom, right, left.
+
+
+Absolute
+-------------
+
+the element can be positioned relative to the nearest positioned ancestor(relative, fixed , absolute). if not, it woill consider screen as a positioned ansector. goes to left corner of the parent by default.
