@@ -258,3 +258,11 @@ viewport width(vh)
 ___________________
 
 relative to the height of the screen
+
+
+
+Combination of Selectors 
+__________________________________
+
+1) grouping selector---> selector1, selector2, selector3....{}(targets multiple elements.)
+2) Descenant Selector--->

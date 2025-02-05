@@ -1,24 +1,15 @@
+/* Grouping Selector */
 
-*{
-    padding: 0;
-    margin: 0;
-    border: 0;
-    box-sizing: border-box;
-}
-.container{
-    width: 100vw;
-    height: 100vh;
-    background-color: gray;
-
-    padding-top: 150px;
+div,p,h1{
+    color: green;
+    font-size: xx-large;
+    font-weight: 900;
 }
 
-.card{
-    width: 300px;
-    height: 70%;
-    background-color: bisque;
-    border-radius: 20px;
-    margin: 0  auto;
-
-    padding: 20px;
+h1{
+    color: aqua;
 }
+
+
+/* Descenant Selector */
+
