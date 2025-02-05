@@ -13,8 +13,16 @@ h1{
 
 /* Descenant Selector */
 
-.parent p{
+/* .parent p{
     color: aqua;
     font-size: larger;
+    font-weight: bolder;
+} */
+
+/* Direct Descenant Selector  */
+
+.parent>p{
+    color: aqua;
+    font-size: xx-large;
     font-weight: bolder;
 }

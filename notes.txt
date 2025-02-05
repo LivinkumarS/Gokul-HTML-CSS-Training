@@ -266,3 +266,4 @@ __________________________________
 
 1) grouping selector---> selector1, selector2, selector3....{}(targets multiple elements.)
 2) Descenant Selector--->Selects all descendant elements inside a specific parent. slector1 selector2{}
+3)Direct Descenant Selector (or) Child Selector---> selector1>selector2{}
