@@ -1,6 +1,6 @@
 /* Grouping Selector */
 
-div,p,h1{
+/* div,p,h1{
     color: green;
     font-size: xx-large;
     font-weight: 900;
@@ -8,8 +8,13 @@ div,p,h1{
 
 h1{
     color: aqua;
-}
+} */
 
 
 /* Descenant Selector */
 
+.parent p{
+    color: aqua;
+    font-size: larger;
+    font-weight: bolder;
+}
