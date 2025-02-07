@@ -6,7 +6,6 @@
 }
 
 .parent {
-  position: relative;
   width: 500px;
   height: 500px;
   border: 1px solid black;
@@ -21,8 +20,12 @@
   border: 0.5px solid gray;
 }
 
-.child1 {
-  position: absolute;
-  top: 50%;
-  right: 50%;
+.sticky-container {
+
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+
+  position: sticky;
+  top: 0;
 }

@@ -308,3 +308,15 @@ Absolute
 -------------
 
 the element can be positioned relative to the nearest positioned ancestor(relative, fixed , absolute). if not, it woill consider screen as a positioned ansector. goes to left corner of the parent by default.
+
+Fixed
+------------
+the element can be positioned relative directly to the viwport.
+
+it doesnot move with the rest of the page
+
+Sticky 
+-------------
+The element behaves like relative until it reaches a defined position.
+
+hybrid of relative and fixed positioning
