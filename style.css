@@ -1,42 +1,16 @@
-.container{
-  width: 500px;
-  border: 1px solid black;
-}
-
-.container:hover{
-  background-color: aqua;
-}
-
-input:focus{
-  background-color: aqua;
-}
-
-/* p::first-letter{
-  color: red;
-  font-size: 50px;
-} */
-
-p::first-line{
-  color: red;
-  font-size: 50px;
-}
-
-
-.card{
+div{
   width: 100px;
-  height: 200px;
-  border: 1px solid gray;
+  border: 1px solid black;
 
+
+  display: inline-block;
 }
-/* 
-.card::before{
-  content: "Good Morning";
-  color: blue;
-  background-color: aqua;
-} */
 
-.card::after{
-  content: "Good Morning";
-  color: blue;
-  background-color: aqua;
+img{
+  width: 100px;
+  display: block;
+}
+
+a{
+  display: block;
 }

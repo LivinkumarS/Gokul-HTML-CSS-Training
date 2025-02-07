@@ -339,3 +339,23 @@ Sticky
 The element behaves like relative until it reaches a defined position.
 
 hybrid of relative and fixed positioning
+
+
+
+Display Properties
+_____________________
+
+block, inline elements, inline-block elements.
+
+block---> will have 100% width defaultly, width and height can be assigned. it will always creates a new line.
+
+ex: p,div,h1-h6, li,ul,ol.
+
+
+Inline elements--->will have only enough width to hold the contants, width and height cannot be assigned. does not create new line.
+ex: a
+
+Inline-block---> hybrid of both. will have only enough width to hold the contants, does not create new line,  width and height can be assigned.
+
+ex: image tag
+
