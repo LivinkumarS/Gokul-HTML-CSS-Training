@@ -270,6 +270,25 @@ __________________________________
 4) chaining selector---> tagname.classname#idname
 5) Universal Selector---> "*"  selects all elements. 
 
+Pseudo-Selectors 
+_____________________
+
+it is used to select a specific parts of an element or element in a particular states.
+
+1)Pseudo-classes(:)---> selects complete element based on its state.
+
+:hover---> when hovered
+:focus---> when focused
+:first-child, :last-child()
+:nth-child()
+
+2) Pseudo elements(::) particular part of an element.
+
+::first-letter
+::first-line 
+
+::before---> inserting content before an element's actual content
+::after---> inserting content after an element's actual content
 
 
 Positioning
