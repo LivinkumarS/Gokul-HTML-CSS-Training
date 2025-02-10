@@ -359,8 +359,12 @@ Skew--->
 Transition
 ___________________
 
+To add transition effects to an element (all).
 
+Animation
+___________________
 
+animation: name duration iteration-count timing-function
 
 
 Display Properties
