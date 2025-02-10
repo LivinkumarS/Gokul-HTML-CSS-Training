@@ -342,6 +342,27 @@ hybrid of relative and fixed positioning
 
 
 
+Transform Properties 
+_________________________
+
+Translate---> used to change the position.
+translateX, translateY, translate.( moves relative to its own width and height)
+
+scale---> used to expand or reduce the size of container.
+(0-1 or higher)
+
+rotate---> used to  rotate the element.
+
+Skew--->
+
+
+Transition
+___________________
+
+
+
+
+
 Display Properties
 _____________________
 
@@ -358,4 +379,5 @@ ex: a
 Inline-block---> hybrid of both. will have only enough width to hold the contants, does not create new line,  width and height can be assigned.
 
 ex: image tag
+
 
