@@ -1,48 +1,11 @@
-* {
+*{
   padding: 0;
   margin: 0;
   border: 0;
+  box-sizing: border-box;
 }
 
-body {
+.box{
   width: 100vw;
   height: 100vh;
-  position: relative;
-}
-
-.box {
-  background-color: red;
-  width: 500px;
-  height: 500px;
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.child {
-  background-color: aqua;
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  animation: fade-in 2s 1 ease-in-out forwards;
-}
-
-
-@keyframes fade-in {
-  0%{
-    opacity: 0;
-    transform: translateX(-100%);
-  }
-
-  90%{
-    opacity: .9;
-    transform: translateX(10px);
-  }
-
-  100%{
-    opacity: 1;
-    transform: translateX(0);
-  }
 }
