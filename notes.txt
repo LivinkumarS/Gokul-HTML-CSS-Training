@@ -385,3 +385,31 @@ Inline-block---> hybrid of both. will have only enough width to hold the contant
 ex: image tag
 
 
+FlexBox
+-----------
+it is a layout model that makes it easy to align items in rows and columns in a container.
+
+selecor{
+  display:flex;
+}
+
+flex-directiom--row, column.(row)
+
+align-items ---> used to align items though cross-axis.
+(stretch)
+start, end, center
+
+justify content---> used to align items though cross-axis.
+(start), end, center.
+space-between, space-around, space-evenly
+
+gap---> to create gap between contents.
+
+flex---> to sreate a ratio that the children tags should occupy the empty space.
+
+
+Flex Wrap
+------------
+
+used to wrap the content to nextline.
+(nowrap), wrap
