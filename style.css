@@ -5,78 +5,63 @@
   box-sizing: border-box;
 }
 
+.gray {
+  background-color: #6e645f;
+}
+
+.green {
+  background-color: #74d6b7;
+}
+
 body {
   height: 100vh;
-  background-color: #2a2d57;
-
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .parent {
-  width: 700px;
-  height: 350px;
-
+  width: 50vw;
+  height: 55vh;
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 
-.child1 {
-  flex: 3;
-  background-color: #6ebf50;
+.parent > .block1 {
+  flex: 45;
+
+  position: relative;
 }
 
-.child2 {
-  flex: 5;
+.parent>.block1>h1{
+  color: #6e645f;
+  font-size: 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.child2>.grand-child1{
-  height: 100px;
-  background-color: #6ebf50;
-
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-weight: 400;
 }
 
 
-.child2>.grand-child2{
-  flex: 1;
 
+.parent > .block2 {
+  flex: 55;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
 }
 
-.child2>.grand-child2>.row{
+.parent > .block2 > div {
   flex: 1;
+}
 
-
+.parent>.block2>.innerBlock2{
   display: flex;
-  gap: 10px;
-
+  gap: 15px;
 }
 
-.child2>.grand-child2>.row>.cont{
+.parent>.block2>.innerBlock2>div{
   flex: 1;
-  height: 100%;
-
-}
-
-.red{
-  background: #ed3437;
-}
-
-.yellow{
-  background-color: #fab32f;
-}
-
-
-
-
-.child3 {
-  flex: 3;
-  background-color: aqua;
 }
