@@ -353,7 +353,7 @@ scale---> used to expand or reduce the size of container.
 
 rotate---> used to  rotate the element.
 
-Skew--->
+Skew---> 
 
 
 Transition
@@ -413,3 +413,7 @@ Flex Wrap
 
 used to wrap the content to nextline.
 (nowrap), wrap
+
+
+Grid,
+Media queries

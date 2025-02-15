@@ -25,6 +25,8 @@ body {
   height: 55vh;
   display: flex;
   gap: 20px;
+
+  transform: skewX(-50deg);
 }
 
 .parent > .block1 {
