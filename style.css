@@ -5,14 +5,6 @@
   box-sizing: border-box;
 }
 
-.gray {
-  background-color: #6e645f;
-}
-
-.green {
-  background-color: #74d6b7;
-}
-
 body {
   height: 100vh;
   display: flex;
@@ -21,49 +13,46 @@ body {
 }
 
 .parent {
-  width: 50vw;
-  height: 55vh;
-  display: flex;
-  gap: 20px;
-
-  transform: skewX(-50deg);
-}
-
-.parent > .block1 {
-  flex: 45;
-
+  width: 500px;
+  height: 500px;
   position: relative;
+  border: 1px solid black;
 }
 
-.parent>.block1>h1{
-  color: #6e645f;
-  font-size: 50px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+.child {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
   position: absolute;
-  bottom: 10px;
-  left: 10px;
-  font-weight: 400;
+  left: 0;
+  top: 0;
+  animation: ani 2s cubic-bezier(0.94, -0.7, 0.2, 1.36) infinite;
 }
 
+@keyframes ani {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  25% {
+    top: 0;
+    left: 100%;
+    transform: translateX(-100%);
+  }
+  50% {
+    top: 100%;
+    left: 100%;
+    transform: translate(-100%,-100%);
+  }
 
+  75%{
+    top: 100%;
+    left: 0;
+    transform: translateY(-100%);
+  }
 
-.parent > .block2 {
-  flex: 55;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.parent > .block2 > div {
-  flex: 1;
-}
-
-.parent>.block2>.innerBlock2{
-  display: flex;
-  gap: 15px;
-}
-
-.parent>.block2>.innerBlock2>div{
-  flex: 1;
+  100% {
+    top: 0;
+    left: 0;
+  }
 }
