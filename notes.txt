@@ -415,5 +415,35 @@ used to wrap the content to nextline.
 (nowrap), wrap
 
 
-Grid,
-Media queries
+
+Grid  
+_____________
+
+is a powerful  layout used to create complex responsive layouts in css.
+
+display:grid;
+grid-template-column: 100px 100px 100px;
+grid-template-rows: 100px 100px 100px;
+column-gap, row-gap, gap.
+
+grid-auto-rows--> to specify height to the lelements which exceeds the layout
+
+grid-template-areas:
+    "one one two"
+    "one one two"
+    "three three two"
+    "three three two"
+    "four four four";
+
+
+
+to childs
+-----------
+
+grid-columns--> start/end 
+grid-rows--> start/end 
+
+grid-area--> row-start/column-start/row-end/column-end
+
+grid-area: one;
+
