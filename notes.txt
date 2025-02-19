@@ -462,3 +462,27 @@ body{
   width: 100px;
   background-color: var(--primary-color);
 }
+
+
+
+
+Media Queries
+___________________
+
+tool to create responsive designs. they allow you to apply different styles based on specific conditions.
+
+syntax:
+----------
+@media (condition){
+  selector{
+
+  }
+  selector{
+
+  }
+}
+
+conditions:  max-width, min-width
+-----------  
+
+Combination of conditions---> and
